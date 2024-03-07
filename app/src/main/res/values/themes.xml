@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.KefAbonelik" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.KefAbonelik" parent="Base.Theme.KefAbonelik" />
+
+    <style name="SpinnerTheme" parent="Widget.AppCompat.Spinner">
+        <item name="android:textColor">@color/gray
+        </item>
+    </style>
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@color/gray</item>
+    </style>
+</resources>
